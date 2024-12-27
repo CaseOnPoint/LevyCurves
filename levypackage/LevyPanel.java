@@ -11,7 +11,7 @@ public class LevyPanel extends JPanel {
     private List<LevyCurves> curves = new ArrayList<>();
     private List<AnimatedPoint> animatedPoints = new ArrayList<>();
 
-    private final double scalingFactor = 50.0; 
+    private final double scalingFactor = 50.0; // change this for fun
 
     // colors for diff curves
     private final List<Color> colors = List.of(
