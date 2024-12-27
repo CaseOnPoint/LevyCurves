@@ -18,7 +18,7 @@ public class LevyPanel extends JPanel {
 
     public LevyPanel() {
 
-        // initialize mutliple curvers
+        // initialize mutliple curves
         for (int i = 0; i < colors.size(); i++) {
             curves.add(new LevyCurves());
         }
